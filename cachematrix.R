@@ -1,5 +1,5 @@
-## makeCacheMatrix builds an object containing the matrix, methods to
-## get and set the matrix, and methods to get and set the cached inversion 
+## makeCacheMatrix builds a list containing  methods to get and
+## set the matrix and methods the cached inversion 
 
 makeCacheMatrix <- function(x = matrix()) {
     s <- NULL;
